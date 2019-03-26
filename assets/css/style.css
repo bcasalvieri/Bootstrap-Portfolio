@@ -36,7 +36,7 @@ a:hover {
 .main-content {
   max-width: 960px;
   background-color: #ffffff;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   border: 1px solid #dddddd;
 }
 
@@ -55,6 +55,7 @@ footer {
   background-color: #666666;
   color: #ffffff;
   border-top: 8px solid #4aaaa5;
+  font-size: 12px;
 }
 
 .btn {
