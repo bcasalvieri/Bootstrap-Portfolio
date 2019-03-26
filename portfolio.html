@@ -13,8 +13,8 @@
   <!-- navbar with max-width 960px wrapped in a fluid container -->
   <div class="container-fluid">
     <nav class="nav mx-auto">
-      <span class="navbar-brand">Brad Casalvieri</span>
-      <div class="d-inline-flex ml-auto">
+      <span class="navbar-brand py-3 px-4">Brad Casalvieri</span>
+      <div class="d-inline-flex ml-auto p-3">
         <a href="index.html" class="nav-link">About</a>
         <a href="portfolio.html" class="nav-link active">Portfolio</a>
         <a href="contact.html" class="nav-link">Contact</a>
@@ -23,35 +23,36 @@
   </div>
 
   <!-- container with content set to max-width of 960px -->
-  <div class="container main-content mt-5">
+  <div class="container main-content mt-4 pb-5">
     <!-- row 1 - Portfolio header -->
     <div class="row">
       <div class="col-12">
-        <h1>Portfolio</h1>
+        <h1 class="pt-3">Portfolio</h1>
+        <hr>
       </div>
     </div>
 
     <!-- row 2 - 3 images -->
-    <div class="card-deck">
+    <div class="card-deck mt-3 mb-4">
       <!-- image 1 -->
       <div class="card">
         <img src="assets/images/city.png" class="card-img" alt="City">
-        <div class="card-img-overlay">
-          <h5 class="card-title">City</h5>
+        <div class="card-img-overlay d-flex flex-column justify-content-end align-bottom">
+          <h5 class="card-title text-center py-3">City</h5>
         </div>
       </div>
       <!-- image 2 -->
       <div class="card">
         <img src="assets/images/motorbike.png" class="card-img" alt="Motorbike">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Motorbike</h5>
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title text-center py-3">Motorbike</h5>
         </div>
       </div>
       <!-- image 3 -->
       <div class="card">
         <img src="assets/images/nightlife.png" class="card-img" alt="Nightlife">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Nightlife</h5>
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title text-center py-3">Nightlife</h5>
         </div>
       </div>
     </div>
@@ -61,22 +62,22 @@
       <!-- image 1 -->
       <div class="card">
         <img src="assets/images/person.png" class="card-img" alt="Person">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Person</h5>
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title text-center py-3">Person</h5>
         </div>
       </div>
       <!-- image 2 -->
       <div class="card">
         <img src="assets/images/soccer.png" class="card-img" alt="Soccer">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Soccer</h5>
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title text-center py-3">Soccer</h5>
         </div>
       </div>
       <!-- image 3 -->
       <div class="card">
         <img src="assets/images/burger.png" class="card-img" alt="Burger">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Burger</h5>
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title text-center py-3">Burger</h5>
         </div>
       </div>
     </div>
@@ -85,7 +86,7 @@
   </div>
 
   <!-- footer -->
-  <footer class="pt-4 fixed-bottom text-center">Copyright &copy; Brad Casalvieri 2019</footer>
+  <footer class="fixed-bottom text-center pt-4 pb-2 mt-5">Copyright &copy; Brad Casalvieri 2019</footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

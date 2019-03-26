@@ -54,3 +54,9 @@ footer {
   background-color: #4aaaa5;
   color: #ffffff
 }
+
+.card-title {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-weight: normal;
+}
