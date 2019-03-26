@@ -32,6 +32,7 @@ a:hover {
 .main-content {
   max-width: 960px;
   background-color: #ffffff;
+  margin-bottom: 150px;
 }
 
 h1 {
