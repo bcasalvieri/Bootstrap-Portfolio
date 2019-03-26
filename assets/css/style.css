@@ -37,6 +37,7 @@ a:hover {
   max-width: 960px;
   background-color: #ffffff;
   margin-bottom: 150px;
+  border: 1px solid #dddddd;
 }
 
 h1 {
