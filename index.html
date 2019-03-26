@@ -10,11 +10,11 @@
   <title>Bootstrap Portfolio</title>
 </head>
 <body>
-  <!-- navbar -->
+  <!-- navbar with max-width 960px wrapped in a fluid container -->
   <div class="container-fluid">
     <nav class="nav mx-auto">
-      <span class="navbar-brand">Brad Casalvieri</span>
-      <div class="d-inline-flex ml-auto">
+      <span class="navbar-brand py-3 px-4">Brad Casalvieri</span>
+      <div class="d-inline-flex ml-auto p-3">
         <a href="index.html" class="nav-link active">About</a>
         <a href="portfolio.html" class="nav-link">Portfolio</a>
         <a href="contact.html" class="nav-link">Contact</a>
@@ -22,35 +22,33 @@
     </nav>
   </div>
       
-  <!-- container with content *need to set max-width to 960px -->
-  <div class="container main-content">
+  <!-- container with main content, set to max-width of 960px -->
+  <div class="container main-content my-4">
     <!-- row 1 - About Me header -->
     <div class="row">
       <div class="col-12">
-        <h1>About Me</h1>
+        <h1 class="pt-3">About Me</h1>
+        <hr>
       </div>
     </div>
     
-    <!-- row 2 - profile pic with text -->
+    <!-- row 2 - profile pic with text wrapped around it-->
     <div class="row">
-      <div class="col-12">
-        <div class="img-fluid float-left pr-3">
+      <div class="col-12 my-3 px-4">
+        <div class="img-fluid float-left pr-3 pb-2">
           <img class="img-fluid" src="assets/images/profile.png" alt="Placeholder Image">
         </div>
-        <div>
+        <div class="text-justify">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur minus temporibus dolore aut consequuntur est sint maiores nobis, amet dignissimos autem? Sunt aliquam alias, velit neque optio tempore necessitatibus quas minus deserunt eveniet magnam eius ad obcaecati voluptatibus rerum saepe porro debitis reprehenderit. Culpa voluptatum deleniti explicabo, labore unde reiciendis quibusdam ab debitis? Rem ab quae magnam, odit error ducimus ipsam suscipit molestiae praesentium cum quasi quisquam voluptas eveniet iste quibusdam, illo voluptates minima repellat sequi ipsum accusamus voluptatum voluptatibus velit! Repellat debitis voluptates magnam dolore eius quo, labore sed voluptatem enim facere deserunt aperiam illo autem nemo error.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, nobis est? Rem ipsum facere error, cupiditate dignissimos voluptatum distinctio? Quaerat.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi mollitia commodi adipisci obcaecati beatae praesentium rerum repellendus, et minima accusantium aliquid repellat ullam sit laborum fugit numquam harum quam esse quo! Cum nisi reiciendis maiores tempore ex libero placeat labore!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, nobis est? Rem ipsum facere error, cupiditate dignissimos voluptatum distinctio? Quaerat.</p>
         </div>
-      </div>
-      <!-- need to get text to wrap around image -->
-      <div class="col-12 col-md-9">
       </div>
     </div>
   </div>
       
   <!-- footer -->
-  <footer class="pt-4 fixed-bottom text-center">Copyright &copy; Brad Casalvieri 2019</footer>
+  <footer class="fixed-bottom text-center pt-4 pb-2 mt-5">Copyright &copy; Brad Casalvieri 2019</footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

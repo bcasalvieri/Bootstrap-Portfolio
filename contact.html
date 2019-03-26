@@ -10,11 +10,11 @@
   <title>Bootstrap Portfolio</title>
 </head>
 <body>
-  <!-- navbar -->
+  <!-- navbar with max-width 960px wrapped in a fluid container -->
   <div class="container-fluid">
     <nav class="nav mx-auto">
-      <span class="navbar-brand">Brad Casalvieri</span>
-      <div class="d-inline-flex ml-auto">
+      <span class="navbar-brand py-3 px-4">Brad Casalvieri</span>
+      <div class="d-inline-flex ml-auto p-3">
         <a href="index.html" class="nav-link">About</a>
         <a href="portfolio.html" class="nav-link">Portfolio</a>
         <a href="contact.html" class="nav-link active">Contact</a>
@@ -22,17 +22,18 @@
     </nav>
   </div>
 
-  <!-- container with content -->
-  <div class="container mt-5">
+  <!-- container with content set to max-width of 960px-->
+  <div class="container main-content my-4">
     <!-- row 1 - Contact header -->
     <div class="row">
       <div class="col-12">
-        <h1>Contact</h1>
+        <h1 class="pt-3">Contact</h1>
+        <hr>
       </div>
     </div>
 
   <!-- row 2 - form -->
-    <form>
+    <form >
       <div class="form-group">
         <label for="name">Name</label>
         <input type="text" class="form-control" id="name" placeholder="John Smith">
@@ -45,12 +46,12 @@
         <label for="message">Message</label>
         <textarea class="form-control" id="message" rows="10"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn mt-3 mb-4 px-4">Submit</button>
     </form>
   </div> 
 
   <!-- footer -->
-  <footer class="pt-4 fixed-bottom text-center">Copyright &copy; Brad Casalvieri 2019</footer>
+  <footer class="fixed-bottom text-center pt-4 pb-2 mt-5">Copyright &copy; Brad Casalvieri 2019</footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
